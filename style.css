@@ -127,3 +127,173 @@ main p{
 .nd_p{
     margin-left: 5%;
 }
+
+.extension{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.chrome{
+
+
+    border: 1px solid rgb(228, 211, 180);
+    display: grid;
+    grid-template-columns: 1fr;
+
+    box-shadow: 1px 1px 1px, -1px -1px -1px;
+    margin: 6%;
+    padding: 8%;
+    height: 91%;
+    width: 74%;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;}
+
+.chrome img{
+    width: 45%;
+
+}
+.chrome h1{
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    margin: 10%;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 1px;
+
+}
+
+.chrome button{
+    margin-top: 5%;
+    width: 100%;
+    justify-self: center;
+    padding: 10px 20px;
+    background-color: rgb(24, 107, 190);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+.Frequently{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.Frequently h1{
+
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+.Frequently p{
+
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 5%;
+
+}
+.more_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_info button{
+
+
+    padding: 3% 6%;
+    background-color: rgb(15, 63, 95);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+
+}
+
+.stay{
+    display: grid;
+    margin-top: 40%;
+    color: white;
+    background-color: rgb(21, 21, 132);
+}
+.stay p{
+    margin-top: 20%;
+    letter-spacing: 4px;
+    font-size: 12px;
+
+}
+.stay h2{
+    text-align: center;
+
+}
+.stay input{
+    display: block;
+    justify-self: center;
+    padding: 3% 11.5%;
+    margin-top: 10%;
+    border: 1px solid #f2ebde;
+    border-radius: 5% 3%;
+
+}
+.stay button{
+
+    margin-top: 20%;
+    width: 60%;
+    justify-self: center;
+    padding: 10px 20px;
+    background-color: rgb(229, 23, 23);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5%;
+
+
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bookmark{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #242946
+}
+.bookmark img{
+    width: 43%;
+    /* margin-left: 8%; */
+    justify-self: center;
+    margin-bottom: 6%;
+    color: aliceblue;
+
+}
+.bookmark ul{
+    justify-self: center;
+    list-style: none;
+    margin-left: -28%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(211, 209, 206);
+
+}
+.bookmark ul li{
+margin-top: 10%;
+
+}
