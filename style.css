@@ -120,5 +120,10 @@ main p{
     display: grid;
     text-align: center;
     margin-top: 8%;
+    margin-left: 4%;
 
+}
+
+.nd_p{
+    margin-left: 5%;
 }
