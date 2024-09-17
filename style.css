@@ -1,0 +1,93 @@
+main{
+    display: grid;
+    grid-template-columns:1fr;
+
+
+}
+
+main img{
+    width: 90%;
+    justify-self: center;
+    padding-top: 10%;
+}
+.blue{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: blue;
+    height: 41vw;
+    width: 70vw;
+    margin-left: 28%;
+    margin-top: -41%;
+    z-index: -9;
+    border: 1px solid blue;
+    border-radius: 0px 0px 0px 48px;
+
+
+}
+
+
+
+.text {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
+    justify-self: center;
+}
+
+.text .h1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+    justify-self: center;
+}
+main p{
+
+    text-align: center;
+    width: 90%;
+    margin-bottom: 7%;
+
+
+
+
+}
+
+
+
+
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 9%;
+    justify-self: center;
+}
+
+.button button{
+    width: 110%;
+    text-align: start;
+    justify-self: center;
+    margin-left: 9%;
+ }
+
+ .feature{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+
+ }
+ .feature h1{
+    justify-self: center;
+    margin-bottom: 5%;
+
+ }
+
+ .feature p{
+    justify-self: center;
+    margin-bottom: 5%;
+    width: 90%;
+    text-align: center;
+
+ }
+
+ .accordion{
+    margin: 10% 5%;
+ }
